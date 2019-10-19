@@ -80,7 +80,7 @@ All the validation should occur at the handler level, that way the database does
 - It was a lot of fun to do. Initially, I had thought about doing this in Node.js and MongoDB... just because it was what I was comfortable with but I also wanted to challenge myself.
 - I was also initially thinking about writing to a file on disk just because it would be easier to kick off and I wouldn't have to worry about any Docker aspects. Though, I hadn't really worked a lot with databases in Go.
 - I also tried to avoid usage of too many third party packages and tried to focus only trying to use the standard library. However, there seemed to be some issues with validation of URLs via the recommended `url.ParseRequestURI`. ([Source](https://stackoverflow.com/questions/31480710/validate-url-with-standard-package-in-go))
-- Need to work on better error handling, relied too much on JavaScript's `try/catch`.
+- Need to work on better error handling, relied too much on JavaScript's `try/catch` in the majority of my work experience.
 
 ## TODO
 If I had more time, I would have focused on the following items:
