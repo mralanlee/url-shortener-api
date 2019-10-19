@@ -11,7 +11,7 @@ Dependencies from the Docker image are MySQL and Golang.
 I didn't get a chance to write all the tests that I could as I wanted to stay as close to the 4 hour mark. I didn't get to approach it in a more idomatic way. When I started working on it, I realized I ended up setting it up as more of an end-to-end test instead of actual unit tests.
 
 ```shell
-$ docker-compose up --build -d
+$ docker-compose -f docker-compose.test.yml up --build -d
 $ go test -v
 ```
 
