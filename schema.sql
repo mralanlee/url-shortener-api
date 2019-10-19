@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS `url` (
+  `id` int(6) unsigned NOT NULL AUTO_INCREMENT,
+  `slug` varchar(8) NOT NULL UNIQUE,
+  `source` varchar(30) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+
+CREATE TABLE IF NOT EXISTS `visits` (
+  `id` int(6) unsigned NOT NULL AUTO_INCREMENT,
+  `slug` varchar(8) NOT NULL, 
+  `timestamp` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`) 
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
