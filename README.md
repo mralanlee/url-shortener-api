@@ -1,4 +1,5 @@
 # Golang URL Shortener
+URL Shortener written in Go. Really fun project since I generally build APIs in Node.js and primarily use NoSQL databases. This task took me about ~5.5 hours.
 
 ## How-To
 ```shell
